@@ -1,5 +1,5 @@
 package datamanagement;
-
+//created a interface of studentrecord to calculate amrks
 public interface IStudentUnitRecord {
 
     public Integer getStudentID();
