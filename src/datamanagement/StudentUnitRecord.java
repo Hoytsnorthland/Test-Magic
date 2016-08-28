@@ -1,10 +1,10 @@
 package datamanagement;
-
+// Here the class is created to calculate student marks which implements interface method
 public class StudentUnitRecord implements IStudentUnitRecord {
 	private Integer sid;
 	private String uc;
 	private float a1, a2, ex;
-
+	//It is a parameterized constructor with different datatypes
 	public StudentUnitRecord(Integer id, String code, float asg1, float asg2,
 			float exam) {
 		this.sid = id;
@@ -13,11 +13,11 @@ public class StudentUnitRecord implements IStudentUnitRecord {
 		this.setAsg2(asg2);
 		this.setExam(exam);
 	}
-
+	// int method is created
 	public Integer getStudentID() {
 		return sid;
 	}
-
+	//to get uni code
 	public String getUnitCode() {
 		return uc;
 	}
